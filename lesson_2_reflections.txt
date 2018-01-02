@@ -9,3 +9,19 @@ repository? What value do you think it offers?
     The staging area is a middle ground which is good to separate out smaller
     actions, and to bundle changes, before permanently making them part of the
     git record by adding them to the commit log.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    By using the staging area, you can group changes to multiple files into one
+    commit without having to commit changes to all files in the same repo. You
+    can also double check the differences between the staging area and the most
+    recent commit by running "git diff --staged".
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    Branches are useful if you have multiple versions, want to keep a
+    production level of code working, or if you are testing something
+    experimental. This way you can maintain something stable, and have
+    multiple simultaneous versions available.
