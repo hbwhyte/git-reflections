@@ -30,3 +30,12 @@ How do the diagrams help you visualize the branch structure?
 
     By visualizing the branch structure, I can understand better where the
     branches separate, which commits are shared, and where they differ.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    The result is that we can keep the additions and deletions from both
+    branches in the final copy, even if they evolved independently. We
+    represent it like that in the diagram because they were temporarily
+    separated but came back together. They are listed in that order because
+    of time stamps.
