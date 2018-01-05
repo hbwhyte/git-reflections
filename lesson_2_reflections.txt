@@ -25,3 +25,8 @@ organized? How would branches help?
     production level of code working, or if you are testing something
     experimental. This way you can maintain something stable, and have
     multiple simultaneous versions available.
+
+How do the diagrams help you visualize the branch structure?
+
+    By visualizing the branch structure, I can understand better where the
+    branches separate, which commits are shared, and where they differ.
