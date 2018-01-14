@@ -39,3 +39,10 @@ the diagram the way we do?
     represent it like that in the diagram because they were temporarily
     separated but came back together. They are listed in that order because
     of time stamps.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    Auto merging is faster and more efficient, if the changes are obviously
+    different. However, when merges could be conflicting, it is better to do it
+    manually to make sure the right changes are being made.
